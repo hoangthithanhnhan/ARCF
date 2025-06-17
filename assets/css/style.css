@@ -1,0 +1,325 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Yellix';
+      line-height: 1.6;
+      color: var(--body);
+    }
+    header .navbar{
+      padding:40px 72px;
+    }
+    header .navbar-expand-lg .navbar-collapse {
+      justify-content: center;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link{
+      color:var(--body);
+      font-size:1.25rem;
+      font-weight: 600;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link:not(:last-child){
+      padding-right:54px;
+    }
+
+    header .btn-donate {
+      background: var(--green);
+      color: #001446;
+      padding: 13px 50px;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1.25rem;
+    }
+
+    .hero-banner {
+      background-image: url('/assets/image/bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      /* justify-content: space-between; */
+      color:white;
+      position: relative;
+    }
+    .hero-banner .hero-banner__title {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    .hero-banner .hero-banner__description {
+      max-width: 500px;
+      margin: 1rem auto;
+      font-size: 1.3rem;
+    }
+    .hero-banner .hero-banner__content{
+      padding: 120px 0px 149px 140px;
+    }
+    .hero-banner .image-banner{
+      position: absolute;
+      right:0;
+      bottom:0;
+      object-fit: cover;
+      height: 100%;
+    }
+    .hero-banner .hero-banner__buttons{
+      display: flex;
+      margin-top:26px;
+    }
+    .hero-banner .hero-banner__buttons .mission-section__button {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      background:white;
+      color: var(--body);
+      font-size: 20px;
+      height: 48px;
+      width: 170px;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .hero-banner .hero-banner__buttons .mission-section__button:not(:last-child){
+      margin-right:40px;
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 46px;
+      font-weight: 700;
+      margin: 0;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      justify-items: center;
+      margin-top: 34px;
+    }
+    section.award-types{
+      padding: 71px 115px 107px 115px;
+    }
+    .grid-4 {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .award-types__card{
+      display: flex;
+      align-items: center;
+      border:none;
+      max-width: 220px;
+      
+    }
+    .award-types__card .award-types__image{
+      width: 82px;
+    }
+    .award-types__card > .award-types__heading{
+      font-size: 28px;
+      font-weight: 600;
+      max-width: 219px;
+      height: 2.6em;  
+      margin: 0;
+      margin-top: 8px;
+    }
+    .award-types__card .award-types__apply-now-btn {
+      margin-top: 23px;
+      background: var(--green);
+      color: 001446;
+      font-size: 20px;
+      font-weight: 600;
+      height: 48px;
+      width: 170px;
+      border-radius: 24px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .stats {
+      background: var(--body);
+      color: white;
+      padding: 64px 140px 119px 140px;
+
+    }
+    .stats .grid {
+      color: var(--green);
+      font-size: 1.5rem;
+      gap: 28px !important;
+      margin-top: 75px;
+    }
+    .stats .stats__grid .stats__item {
+      max-width: 287px;
+    }
+    .stats .stats__grid .stats__item .stats__amount{
+      font-size: 80px;
+      font-weight: 300;
+    }
+    .stats .stats__grid .stats__item .stats__description{
+      color:white;
+      font-size: 28px;
+      font-weight: 600;
+      padding:0px 20px;
+    }
+    .news{
+      padding:65px 140px 75px 140px;
+    }
+    .news .news-carousel {
+      margin-top:75px;
+    }
+    .news .news-carousel .news__item{
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .news .news-carousel .news__item .news__image{
+      width: 100%;
+      height: 266px;
+      object-fit: cover;
+      border-radius: 12px;
+      position: relative;
+    }
+    .news .news-carousel .news__item .news-card__content{
+      position: absolute;
+      top:202px;
+      width: 88%;
+      padding:43px 29px;
+      text-align: left;
+      border:none;
+      background: #F1F5FA;
+      border-radius: 0;
+    }
+    .news .news-carousel .news__item .news-card__content .news-card__date{
+      font-size: 16px;
+      color:#407FC1;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .news .news-carousel .news__item .news-card__content .news-card__title{
+      font-size: 24px;
+      font-weight: 600;
+      padding-right:10px;
+    }
+    .news .news-carousel .news__item .news-card__content .news-card__description{
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .donation-highlight{
+      margin-top: 0;
+      gap:0;
+      color:white;
+    }
+    .donation-highlight .donation-highlight__left,.donation-highlight__right{
+      flex:1;
+    }
+    .donation-highlight .donation-highlight__left{
+      background: #407FC1;
+      padding:53px 93px 53px 72px;
+    }
+    .donation-highlight .donation-highlight__left .donation-highlight__heading{
+      font-family: 'Playfair Display', serif;
+      font-size: 35px;
+      font-weight: 700;
+    }
+    .donation-highlight .donation-highlight__left .donation-highlight__description{
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .donation-highlight .donation-highlight__left .donation-highlight__button, .donation-highlight__right .donation-highlight__event-button{
+      background: var(--green);
+      color: var(--body);
+      text-decoration: none;
+      padding:18px 43px;
+      border-radius: 50px;
+      margin-top: 30px;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .donation-highlight .donation-highlight__right{
+      background: #001446;
+      padding:53px 89px 53px 82px;
+      display: flex;
+    }
+    .donation-highlight .donation-highlight__right .donation-highlight__event-title{
+      font-family: 'Playfair Display', serif;
+      font-size: 35px;
+      font-weight: 700;
+    }
+    .donation-highlight .donation-highlight__right .donation-highlight__event-topic{
+      font-style: italic;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 30px;
+    }
+    .donation-highlight .donation-highlight__right .donation-highlight__image{
+      width: 200px;
+      height: 267px;
+    }
+    .site-footer .site-footer__sections{
+      gap:50px;
+      padding:100px 72px;
+    }
+    .site-footer .site-footer__sections .footer-section{
+      width: 100%;
+    }
+    .site-footer .site-footer__sections .footer-section--contact .footer-section__logo{
+      margin-bottom: 33px;
+    }
+    .site-footer .site-footer__sections .footer-section__list{
+      padding:0;
+    }
+    .site-footer .site-footer__sections .footer-section__list li{
+      list-style: none;
+      padding:0;
+      padding: 12px 0px;
+    }
+    .site-footer .site-footer__sections .footer-section__list li:not(:last-child){
+      border-bottom: 1px solid;
+    }
+    .site-footer .site-footer__bottom{
+      display: flex;
+      justify-content: space-between;
+      padding:15px 75px 30px 75px;
+    }
+    .site-footer .site-footer__bottom>p{
+      color:#6B6D75;
+      font-size: 15px;
+      margin: 0;
+    }
+    @media (max-width: 479px) {
+      header {
+        flex-direction: column;
+      }
+      .hero-banner h1 {
+        font-size: 1.5rem;
+      }
+      .donation-highlight .donation-highlight__right{
+        flex-direction: column;
+      }
+      .donation-highlight .donation-highlight__right .donation-highlight__image{
+        margin-top: 20px;
+      }
+      .donation-highlight{
+        display: flex;
+  flex-wrap: wrap;
+      }
+    }
+    @media (max-width: 1200px) {
+      header {
+        flex-direction: column;
+      }
+      .hero-banner h1 {
+        font-size: 1.5rem;
+      }
+      .donation-highlight .donation-highlight__right{
+        flex-direction: column;
+      }
+      .donation-highlight .donation-highlight__right .donation-highlight__image{
+        margin-top: 20px;
+      }
+    }

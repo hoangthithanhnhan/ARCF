@@ -1,0 +1,66 @@
+:root{
+  --body:#001446;
+  --green:#00DDBE;
+}
+
+/* Import font-family: Ellix */
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/Yellix/Yellix-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Yellix/Yellix-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/Yellix/Yellix-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/Yellix/Yellix-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/Yellix/Yellix-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/Yellix/Yellix-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/Yellix/Yellix-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../font/Yellix/Yellix-BlackItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../font/Yellix/Yellix-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../font/Yellix/Yellix-BlackItalic.ttf) format('truetype');
+}
