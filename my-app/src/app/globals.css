@@ -3,7 +3,6 @@
 :root {
   --body:#001446;
   --green:#00DDBE;
-  font-size:10px;
 }
 
 @theme inline {
@@ -11,6 +10,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--green);
+  --color-body:var(--body);
 }
 
 /* Import font-family: Ellix */

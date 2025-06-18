@@ -1,10 +1,11 @@
 'use client'
-import Header from "../../component/Header";
+
+import Award_Section from "../../component/award-section";
+import Hero_Banner from "../../component/hero-banner";
 
 
 export default function Home() {
   return (
-    <Header />
+    <><Hero_Banner /><Award_Section /></>
   );
-  
 }

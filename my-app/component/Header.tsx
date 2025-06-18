@@ -1,38 +1,33 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="py-[40px] px-[72px]">
+    <header className="py-10 px-18">
       <nav className="flex items-center justify-between">
         <Link href="" className="flex-shrink-0">
-          <Image src="/logo.png" alt="Logo" width={306} height={76}/>
-        </Link> 
+          <Image src="/logo.png" alt="Logo" width={306} height={76} />
+        </Link>
         <div className="hidden lg:flex justify-center flex-1">
-          <div className="flex space-x-13.5 text-6xl">
-            {["About", "How We Give", "Donations & Support", "News", "Contact"].map((item) => (
-              <Link
-                key={item}
-                href="#"
-                className="text-xl font-semibold text-[var(--body)]"
-              >
-                {item}
-              </Link>
-            ))}
+          <div className="space-x-13.5">
+            <Link href="/" className="flex-shrink-0 lg:text-sm xl:text-xl  font-semibold">About</Link>
+            <Link href="/" className="flex-shrink-0 lg:text-sm xl:text-xl font-semibold">How We Give</Link>
+            <Link href="/" className="flex-shrink-0 lg:text-sm xl:text-xl font-semibold">Donations & Support</Link>
+            <Link href="/" className="flex-shrink-0 lg:text-sm xl:text-xl font-semibold">News</Link>
+            <Link href="/" className="flex-shrink-0 lg:text-sm xl:text-xl font-semibold">Contact</Link>
           </div>
         </div>
         <div>
           <Link
             href="#"
-            className="bg-[var(--green)] text-[var(--body)] py-3.5 px-[50px] rounded-full font-semibold text-[1.25rem] no-underline"
-          >
+            className="bg-primary text-body py-3.5 px-13 rounded-full font-semibold lg:text-sm xl:text-xl no-underline">
             Donate
           </Link>
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
