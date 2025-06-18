@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --body:#001446;
+  --green:#00DDBE;
+  font-size:10px;
+}
+
+@theme inline {
+  --color-background: var(--background);  
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Import font-family: Ellix */
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Yellix/Yellix-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Yellix/Yellix-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Yellix/Yellix-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Yellix/Yellix-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Yellix/Yellix-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Yellix/Yellix-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Yellix/Yellix-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/fonts/Yellix/Yellix-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/Yellix/Yellix-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/fonts/Yellix/Yellix-BlackItalic.ttf') format('truetype');
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Yellix",sans-serif;
+}
+
+/* .btn-primary {
+  @apply bg-green-500 text-white font-semibold py-2 px-4 rounded hover:bg-green-600;
+} */
