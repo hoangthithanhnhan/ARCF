@@ -2,13 +2,13 @@ import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
 
-interface Award_Item_Props {
+interface AwardItemProps {
     imgSrc: string;
     title: string;
     href: string;
 }
 
-const Award_Item  = ({ imgSrc, title, href } : Award_Item_Props ) => {
+const AwardItem  = ({ imgSrc, title, href } : AwardItemProps ) => {
     return (
         <div className="flex flex-col items-center justify-center ">
             <Image width={82} height={82} src={imgSrc} alt={title} className="object-cover"/>
@@ -18,4 +18,4 @@ const Award_Item  = ({ imgSrc, title, href } : Award_Item_Props ) => {
     )
 }
 
-export default Award_Item 
+export default AwardItem 

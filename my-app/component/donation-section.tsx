@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-const Donation_Section = () => {
+const DonationSection = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 text-white">
       <div className="bg-success px-18 py-13">
@@ -55,4 +55,4 @@ const Donation_Section = () => {
   )
 }
 
-export default Donation_Section
+export default DonationSection
