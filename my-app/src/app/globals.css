@@ -3,6 +3,8 @@
 :root {
   --body:#001446;
   --green:#00DDBE;
+  --grey:#F1F5FA;
+  --blue:#407FC1;
 }
 
 @theme inline {
@@ -10,8 +12,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-primary: var(--green);
+  --color-primary:var(--green);
   --color-body:var(--body);
+  --color-grey:var(--grey);
+  --color-success:var(--blue);
 }
 
 /* Import font-family: Ellix */
@@ -90,6 +94,3 @@ body {
   font-family: "Yellix",sans-serif;
 }
 
-/* .btn-primary {
-  @apply bg-green-500 text-white font-semibold py-2 px-4 rounded hover:bg-green-600;
-} */
