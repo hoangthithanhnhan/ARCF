@@ -18,7 +18,7 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex justify-center flex-1">
-          <div className="space-x-8">
+          <div className="space-x-13">
             {NavLink.map((item) => (
               <Link key={item.label} href={item.href} className="lg:text-sm xl:text-xl font-semibold">
                 {item.label}

@@ -5,7 +5,7 @@ const DonationSection = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 text-white">
       <div className="bg-success px-18 py-13">
-        <h4 className="font-serif text-3xl font-bold mb-6">
+        <h4 className="font-ivar text-3xl font-bold mb-6">
           Your Donations Support Our Mission
         </h4>
         <p className="text-lg font-light mb-4">
@@ -25,7 +25,7 @@ const DonationSection = () => {
 
       <div className="bg-body px-18 py-13 flex items-start flex-wrap md:flex-nowrap">
         <div className="max-w-2/3">
-          <h4 className="font-serif text-3xl font-bold mb-4">
+          <h4 className="font-ivar text-3xl font-bold mb-4">
             61st Respiratory Care Journal Conference
           </h4>
           <p className="mb-2 text-base leading-relaxed">

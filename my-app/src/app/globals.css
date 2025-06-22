@@ -5,6 +5,7 @@
   --green:#00DDBE;
   --grey:#F1F5FA;
   --blue:#407FC1;
+  --font-ivar: 'IvarDisplay', serif;
 }
 
 @theme inline {
@@ -12,10 +13,29 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-ivar: var(--font-ivar);
   --color-primary:var(--green);
   --color-body:var(--body);
   --color-grey:var(--grey);
   --color-success:var(--blue);
+}
+
+@layer base {
+  .text-64{
+    font-size: 64px;
+  }
+  .text-46 {
+    font-size: 46px;
+  }
+  .text-28{
+    font-size: 28px;
+  }
+  .text-22{
+    font-size: 22px;
+  }
+  .text-80{
+    font-size: 80px;
+  }
 }
 
 /* Import font-family: Ellix */
@@ -79,14 +99,20 @@
   font-weight: 900;
   src: url('/fonts/Yellix/Yellix-BlackItalic.ttf') format('truetype');
 }
+/* Import font-family: Ellix */
+@font-face {
+  font-family: 'IvarDisplay';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/IvarDisplay/IvarDisplay-Bold.woff') format('truetype');
+}
+@font-face {
+  font-family: 'IvarDisplay';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/IvarDisplay/IvarDisplay-BoldIlatic.woff') format('truetype');
+}
 
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 @media (max-width:768) {
   :root {
