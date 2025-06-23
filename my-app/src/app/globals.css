@@ -5,7 +5,6 @@
   --green:#00DDBE;
   --grey:#F1F5FA;
   --blue:#407FC1;
-  --font-ivar: 'IvarDisplay', serif;
 }
 
 @theme inline {
@@ -13,30 +12,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-ivar: var(--font-ivar);
+  --font-ivar: 'IvarDisplay', serif;
   --color-primary:var(--green);
   --color-body:var(--body);
   --color-grey:var(--grey);
   --color-success:var(--blue);
 }
 
-@layer base {
-  .text-64{
-    font-size: 64px;
-  }
-  .text-46 {
-    font-size: 46px;
-  }
-  .text-28{
-    font-size: 28px;
-  }
-  .text-22{
-    font-size: 22px;
-  }
-  .text-80{
-    font-size: 80px;
-  }
-}
 
 /* Import font-family: Ellix */
 @font-face {
@@ -116,7 +98,7 @@
 
 @media (max-width:768) {
   :root {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media (max-width:1024) {
