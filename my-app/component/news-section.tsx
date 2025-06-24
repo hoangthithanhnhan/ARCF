@@ -10,7 +10,7 @@ import { News } from "../mock-data/data";
 export default function FoundationNewsCarousel() {
   return (
     <section className="p-15 xl:pt-16 xl:pb-30 xl:px-35 bg-white">
-      <h2 className="font-ivar text-4xl xl:text-[2.875rem] font-bold text-center mb-10 xl:mb-19">Foundation News</h2>
+      <h2 className="font-ivar text-4xl xl:text-[2.875rem] font-bold text-center mb-10 xl:mb-19">{News.title}</h2>
       <div className="mx-auto relative">
         <Swiper
           modules={[Navigation]}
@@ -30,7 +30,7 @@ export default function FoundationNewsCarousel() {
             },
           }}
         >
-          {News.map((item, i) => (
+          {News.item.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="rounded-2xl h-full flex flex-col">
                 <div className="aspect-[4/3] relative">

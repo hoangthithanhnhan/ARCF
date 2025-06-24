@@ -6,7 +6,6 @@ const DonationSection = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 text-white">
       <div className="bg-success p-10 xl:px-18 xl:py-13">
-        <h4 className="font-ivar text-3xl font-bold mb-6"> Your Donations Support Our Mission</h4>
         <h4 className="font-ivar text-[2rem] font-bold mb-6">{Donation[0].title}</h4>
         {(Donation[0].description as string[]).map((item,i)=>(
           <p key={i} className="text-lg font-light mb-4">{item}</p>

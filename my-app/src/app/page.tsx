@@ -11,7 +11,7 @@ import {Banner} from "../../mock-data/data"
 export default function Home() {
   return (
     <>
-    <HeroBanner {...Banner.homepage}/>
+    <HeroBanner {...Banner.homePage}/>
     <AwardSection />
     <StatsSection /> <FoundationNewsCarousel/> <DonationSection/> </>
   );

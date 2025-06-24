@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="p-15 xl:px-18 xl:py-25 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 md:gap-12.5">
                 <div>
                     <Image src="/images/Logo.png" alt="Logo" width={306} height={76} className="mb-8"/>
-                    <p className="mb-4"> 
+                    <div className="mb-4"> 
                         {(FooterData[0].address as string[]).map((item,i)=>(
                             <p key={i}>{item}</p>
                         ))}
-                    </p>
+                    </div>
                     <p>
-                        <b>Phone:</b> {FooterData[0].phonenumber} <br/>
+                        <b>Phone:</b> {FooterData[0].phoneNumber} <br/>
                         <b>Fax:</b> {FooterData[0].fax} <br/>
                         <b>E-Mail Us</b>
                     </p>
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <hr style={{ borderColor: "#001446" , opacity : "0.1"}}/>
             <div className="flex flex-col xl:flex-row justify-between py-8.5 px-18 opacity-75">
-                <p className="text-gray-600 mb-2 sm:mb-0 text-xs">{FooterData[4].copywrite}</p>
+                <p className="text-gray-600 mb-2 sm:mb-0 text-xs">{FooterData[4].copyWrite}</p>
                 <p className="text-gray-600 text-xs">{FooterData[4].note}</p>
             </div>
         </footer>

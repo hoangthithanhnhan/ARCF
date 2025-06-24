@@ -4,13 +4,13 @@ import { FinancialData } from '../mock-data/data';
 
 const Financial = () => {
     return (
-        <section className='bg-body py-13.75 px-64.5 text-white flex items-center justify-between'>
-            <div className='w-2/3'>
+        <section className='bg-body p-10 md:py-15 md:px-20 xl:py-13.75 xl:px-64.5 text-white flex flex-col md:flex-row items-center justify-between text-center xl:text-left'>
+            <div className='xl:w-2/3'>
                 <p className='font-ivar font-bold text-[2.875rem]'>{FinancialData.title}</p>
                 <p className='text-lg'>{FinancialData.description}</p>
             </div>
-            <div className='w-1/3'>
-                <Link className='bg-primary text-body text-lg py-4.5 px-11.5 rounded-full right-0' href={FinancialData.action.href}>{FinancialData.action.label}</Link>
+            <div className='xl:w-1/3 flex justify-center xl:justify-end'>
+                <Link className='bg-primary mt-5 xl:m-0 text-body text-lg py-3.5 px-11.5 rounded-full font-semibold' href={FinancialData.action.href}>{FinancialData.action.label}</Link>
             </div>
         </section>
     )
