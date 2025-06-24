@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from 'lucide-react';
-import { NavLink } from "../mock-data/data";
+import { Nav } from "../mock-data/data";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +12,13 @@ const Header = () => {
     <header className="relative top-0 left-0 transition-shadow w-full py-10 px-6 md:px-12 xl:px-18 bg-white">
       <nav className="flex items-center justify-between">
         <Link href="/" className="flex-shrink-0">
-          <Image src="/logo.png" alt="Logo" width={200} height={76} className="xl:w-[306]"/>
+          <Image src="/images/Logo.png" alt="Logo" width={200} height={76} className="xl:w-[306]"/>
         </Link>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex justify-center flex-1">
-          <div className="space-x-13">
-            {NavLink.map((item) => (
+          <div className="space-x-13.75">
+            {Nav.map((item) => (
               <Link key={item.label} href={item.href} className="xl:text-xl font-semibold">
                 {item.label}
               </Link>
@@ -39,7 +39,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-white shadow-xl/20 z-40 px-6 pt-4 pb-6 flex flex-col gap-4 lg:hidden">
-            {NavLink.map((link) => (
+            {Nav.map((link) => (
               <Link key={link.label} href={link.href} className="text-base font-medium text-center">
                 {link.label}
               </Link>

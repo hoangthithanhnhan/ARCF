@@ -5,12 +5,12 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { NewsData } from "../mock-data/data";
+import { News } from "../mock-data/data";
 
 export default function FoundationNewsCarousel() {
   return (
     <section className="p-15 xl:pt-16 xl:pb-30 xl:px-35 bg-white">
-      <h2 className="font-ivar text-4xl xl:text-5xl font-bold text-center mb-10 xl:mb-19">Foundation News</h2>
+      <h2 className="font-ivar text-4xl xl:text-[2.875rem] font-bold text-center mb-10 xl:mb-19">Foundation News</h2>
       <div className="mx-auto relative">
         <Swiper
           modules={[Navigation]}
@@ -30,7 +30,7 @@ export default function FoundationNewsCarousel() {
             },
           }}
         >
-          {NewsData.map((item, i) => (
+          {News.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="rounded-2xl h-full flex flex-col">
                 <div className="aspect-[4/3] relative">
@@ -39,7 +39,7 @@ export default function FoundationNewsCarousel() {
                 <div className="-mt-12 mx-4 bg-grey p-6 relative flex flex-col h-full overflow-visible">
                   <p className="text-base text-success font-semibold uppercase mb-2">{item.date}</p>
                   <h3 className="text-lg font-semibold xl:text-2xl mb-2">{item.title}</h3>
-                  <p className="text-base 2xl:text-lg line-clamp-5 ">{item.description}</p>
+                  <p className="text-base xl:text-lg line-clamp-5 ">{item.description}</p>
                 </div>
               </div>
             </SwiperSlide>

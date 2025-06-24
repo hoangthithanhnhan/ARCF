@@ -1,53 +1,53 @@
 import React from "react";
 import Image from "next/image";
+import {FooterData} from "../mock-data/data"
 
 const Footer = () => {
     return (
         <footer className="">
-            <div className="p-15 xl:px-18 xl:py-25 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 md:gap-10 xl:space-x-13.5">
+            <div className="p-15 xl:px-18 xl:py-25 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 md:gap-12.5">
                 <div>
-                    <Image src="/logo.png" alt="Logo" width={306} height={76} className="mb-8"/>
-                    <p className="mb-4"> 9425 North MacArthur Blvd,
-                        <br/>Suite 100 
-                        <br/> Irving, TX 75063-4706
+                    <Image src="/images/Logo.png" alt="Logo" width={306} height={76} className="mb-8"/>
+                    <p className="mb-4"> 
+                        {(FooterData[0].address as string[]).map((item,i)=>(
+                            <p key={i}>{item}</p>
+                        ))}
                     </p>
                     <p>
-                        <b>Phone:</b> (972) 243-2272 <br/>
-                        <b>Fax:</b> (972) 484-2720 <br/>
+                        <b>Phone:</b> {FooterData[0].phonenumber} <br/>
+                        <b>Fax:</b> {FooterData[0].fax} <br/>
                         <b>E-Mail Us</b>
                     </p>
                 </div>
                 <div className="mt-2 xl:mt-0">
-                    <h5 className="text-xl mb-2 font-bold xl:mb-3">About Us</h5>
+                    <h5 className="text-[1.125rem] mb-2 font-bold xl:mb-3">{FooterData[1].label}</h5>
                     <div>
-                        <p className="mb-4">The American Respiratory Care Foundation is a nonprofit organization formed for the purpose of supporting research, education, and charitable activities.</p>
-                        <p>The ARCF seeks to educate the public about respiratory health, assist in the training and continuing education of health care providers, and improve the quality of our environment.</p>
+                        {(FooterData[1].description as string[]).map((item,i)=>(
+                            <p key={i} className="mb-4 last:m-0">{item}</p>
+                        ))}
                     </div>
                 </div>
                 <div className="mt-2 xl:mt-0">
-                    <h5 className="text-xl font-bold xl:mb-3">How We Give</h5>
+                    <h5 className="text-[1.125rem] font-bold xl:mb-3">{FooterData[2].label}</h5>
                     <ul>
-                        <li className="border-b-1 py-3">Student Awards</li>
-                        <li className="border-b-1 py-3">Research Awards & Grants</li>
-                        <li className="border-b-1 py-3">Achievement Awards</li>
-                        <li className="border-b-1 py-3">Literary Awards</li>
-                        <li className="py-3">International Fellowship Program</li>
+                        {(FooterData[2].description as string[]).map((item,i)=>(
+                            <li key={i} className="py-3 not-last:border-b-1">{item}</li>
+                        ))}
                     </ul>
                 </div>
                 <div className="mt-2 xl:mt-0" >
-                    <h5 className="text-xl font-bold xl:mb-3">Donations & Support</h5>
+                    <h5 className="text-[1.125rem] font-bold xl:mb-3">{FooterData[3].label}</h5>
                     <ul>
-                        <li className="border-b-1 py-3">Make A Donation</li>
-                        <li className="border-b-1 py-3">Endowments</li>
-                        <li className="border-b-1 py-3">Sponsors and Donors</li>
-                        <li className="py-3">Support for International Fellowships</li>
+                        {(FooterData[3].description as string[]).map((item,i)=>(
+                            <li key={i} className="py-3 not-last:border-b-1">{item}</li>
+                        ))}
                     </ul>
                 </div>
             </div>
-            <hr className="text-gray-600"/>
-            <div className="flex flex-col xl:flex-row justify-between py-4 px-18.5">
-                <p className="text-gray-600 mb-2 sm:mb-0">&copy;2024 American Respiratory Care Foundation. All Rights Reserved.</p>
-                <p className="text-gray-600">The American Respiratory Care Foundation is a 501(c)(3) charitable organization.</p>
+            <hr style={{ borderColor: "#001446" , opacity : "0.1"}}/>
+            <div className="flex flex-col xl:flex-row justify-between py-8.5 px-18 opacity-75">
+                <p className="text-gray-600 mb-2 sm:mb-0 text-xs">{FooterData[4].copywrite}</p>
+                <p className="text-gray-600 text-xs">{FooterData[4].note}</p>
             </div>
         </footer>
     
