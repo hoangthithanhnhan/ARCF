@@ -164,18 +164,18 @@ export const FinancialData={
   }
 }
 
-export const Organization=[
-  {
+export const OrganizationData={
+  boardOfTrustees:{
     title:"Board of Trustees",
     description:[
       "The American Respiratory Care Foundation is a nonprofit organization formed for the purpose of supporting research, education, and charitable activities.",
       "The ARCF seeks to educate the public about respiratory health, assist in the training and continuing education of health care providers, and improve the quality of our environment."
     ]
   },
-  {
+  arcfExcutiveOffice:{
     title:"Executive Office",
     description:[
       "The Board of Trustees shall appoint an Executive Office to oversee day-to-day operations of the ARCF. The Executive Office will be charged by the ARCF Trustees to execute agreed upon duties and will be empowered by to represent the ARCF in agreed upon negotiations, program development, financial matters and other administrative duties."
     ]
   }
-]
+}
