@@ -29,7 +29,7 @@ export const Banner = {
 
 
 export const Award= {
-  title: "What We Gave in 2020",
+  title: "How We Give",
   item:[
     { img: "/images/GraduationCap.png", label: "Student Awards", href:"/" },
     { img: "/images/BookOpenText.png", label: "Research Awards & Grants", href:"/" },
@@ -164,7 +164,7 @@ export const FinancialData={
   }
 }
 
-export const Organization={
+export const OrganizationData={
   boardOfTrustees:{
     title:"Board of Trustees",
     description:[

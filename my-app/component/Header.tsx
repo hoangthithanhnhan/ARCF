@@ -40,7 +40,7 @@ const Header = () => {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-white shadow-xl/20 z-40 px-6 pt-4 pb-6 flex flex-col gap-4 lg:hidden">
             {Nav.map((link) => (
-              <Link key={link.label} href={link.href} className="text-base font-medium text-center">
+              <Link key={link.label} href={link.href} className="text-lg font-medium text-center">
                 {link.label}
               </Link>
             ))}
