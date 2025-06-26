@@ -7,10 +7,10 @@ interface OrganizationProps {
 
 const Organization = ({ title, description }: OrganizationProps) => {
     return (
-        <div>
-            <h3>{title}</h3>
-            {description.map((item, i) => (
-                <p key={i}>{item}</p>
+        <div className='max-w-[32.6875rem] mb-9 mt-5'>
+            <h3 className='text-4xl xl:text-[2.875rem] font-ivar font-bold mb-3'>{title}</h3>
+            {description && description.map((item, i) => (
+                <p key={i} className='text-lg not-last:mb-5 '>{item}</p>
             ))}
         </div>
     )

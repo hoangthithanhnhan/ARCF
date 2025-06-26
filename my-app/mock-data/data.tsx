@@ -173,13 +173,322 @@ export const OrganizationData={
     ]
   },
   arcfExcutiveOffice:{
-    title:"Executive Office",
+    title:"ARCF Executive Office",
     description:[
       "The Board of Trustees shall appoint an Executive Office to oversee day-to-day operations of the ARCF. The Executive Office will be charged by the ARCF Trustees to execute agreed upon duties and will be empowered by to represent the ARCF in agreed upon negotiations, program development, financial matters and other administrative duties."
     ]
+  },
+  awardsRecipients:{
+    title:'2024 Awards Recipients',
+    description:[]
   }
 }
 
-export const Member={
+export const BoardOfTrustees=[
+  [
+    {
+      avatar:"/images/Carl.png",
+      organization:"CHAIR",
+      name:"Carl R. Hinkson",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/Dana.png",
+      organization:"Vice-chair",
+      name:"Dana Evans",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/Kari.png",
+      organization:"secretary/treasurer",
+      name:"Kari Neville, BSRC, RRT, RRT-NPS, FAARC",
+      address:"",
+      experience:"",
+      introduction:"Kari has been a respiratory therapist and AARC member for over 27 years. She is currently a Senior Clinical Specialist for Bunnell, Incorporated. Her primary job responsibility is education on high frequency ventilation for neonatal and pediatric patients. Kari has worked mostly in pediatric and neonatal care, transport, ECMO, management/leadership, and education. She has been in volunteer leadership roles for the past 23 years within the Colorado Society for Respiratory Care, AARC House of Delegates, and the AARC Board of Directors. Kari is currently serving as Secretary/Treasurer of the AARC and is involved in various committees within the organization."
+    }
+  ],
+  [
+    {
+      avatar:"/images/Neil.png",
+      organization:"Trustee",
+      name:"Neil MacIntyre, MD, FAARC",
+      address:"Duke University Medical Center Durham, NC",
+      experience:"Professor  of Medicine, Medical Director of Respiratory Care (Emeritus)",
+      introduction:"Kari has been a respiratory therapist and AARC member for over 27 years. She is currently a Senior Clinical Specialist for Bunnell, Incorporated. Her primary job responsibility is education on high frequency ventilation for neonatal and pediatric patients. Kari has worked mostly in pediatric and neonatal care, transport, ECMO, management/leadership, and education. She has been in volunteer leadership roles for the past 23 years within the Colorado Society for Respiratory Care, AARC House of Delegates, and the AARC Board of Directors. Kari is currently serving as Secretary/Treasurer of the AARC and is involved in various committees within the organization."
+    },
+    {
+      avatar:"/images/Teri.png",
+      organization:"Trustee",
+      name:"Teri Miller, MEd, RRT, CPFT, FAARC",
+      address:"Middle Georgia State University Macon, Georgia",
+      experience:"",
+      introduction:"Kari has been a respiratory therapist and AARC member for over 27 years. She is currently a Senior Clinical Specialist for Bunnell, Incorporated. Her primary job responsibility is education on high frequency ventilation for neonatal and pediatric patients. Kari has worked mostly in pediatric and neonatal care, transport, ECMO, management/leadership, and education. She has been in volunteer leadership roles for the past 23 years within the Colorado Society for Respiratory Care, AARC House of Delegates, and the AARC Board of Directors. Kari is currently serving as Secretary/Treasurer of the AARC and is involved in various committees within the organization."
+    },
+    {
+      avatar:"/images/Georgianna.png",
+      organization:"Trustee",
+      name:"Georgianna Sergakis, PhD, RRT, RCP, AE-C, FAARC, FNAP",
+      address:"The Ohio State University Columbus, OH",
+      experience:"",
+      introduction:"Kari has been a respiratory therapist and AARC member for over 27 years. She is currently a Senior Clinical Specialist for Bunnell, Incorporated. Her primary job responsibility is education on high frequency ventilation for neonatal and pediatric patients. Kari has worked mostly in pediatric and neonatal care, transport, ECMO, management/leadership, and education. She has been in volunteer leadership roles for the past 23 years within the Colorado Society for Respiratory Care, AARC House of Delegates, and the AARC Board of Directors. Kari is currently serving as Secretary/Treasurer of the AARC and is involved in various committees within the organization."
+    },
+    {
+      avatar:"/images/Sheri.png",
+      organization:"Trustee",
+      name:"Sheri Tooley, RRT-NPS, CPFT, AE-C",
+      address:"Draeger-STIMIT",
+      experience:"",
+      introduction:"Kari has been a respiratory therapist and AARC member for over 27 years. She is currently a Senior Clinical Specialist for Bunnell, Incorporated. Her primary job responsibility is education on high frequency ventilation for neonatal and pediatric patients. Kari has worked mostly in pediatric and neonatal care, transport, ECMO, management/leadership, and education. She has been in volunteer leadership roles for the past 23 years within the Colorado Society for Respiratory Care, AARC House of Delegates, and the AARC Board of Directors. Kari is currently serving as Secretary/Treasurer of the AARC and is involved in various committees within the organization."
+    }
+  ],
+  [
+    {
+      avatar:"/images/Michael.png",
+      organization:"Emeritus",
+      name:"Michael T. Amato, MBA",
+      address:"InspiRx Durham, NC",
+      experience:"Chief Executive Officer",
+      introduction:""
+    },
+    {
+      avatar:"/images/Dale.png",
+      organization:"Emeritus",
+      name:"Dale Eiserman",
+      address:"Palm Springs, CA",
+      experience:"Vice President of International Sales, Critical Care Division VIASYS Healthcare ",
+      introduction:""
+    },
+    {
+      avatar:"/images/Sam.png",
+      organization:"Emeritus",
+      name:"Sam P. Giordano, MBA, RRT, FAARC",
+      address:"Carrollton, TX",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/David.png",
+      organization:"Emeritus",
+      name:"David J. Pierson, MD, FAARC",
+      address:"Harborview Medical Center Seattle, WA",
+      experience:"",
+      introduction:""
+    },
+  ],
+  [
+    {
+      avatar:"/images/Bruce.png",
+      organization:"Emeritus",
+      name:"Bruce Rubin, MEngr, MD, MBA, FRCPC, FAARC",
+      address:"Virginia Commonwealth University School of Medicine Richmond, VA",
+      experience:"Professor and Chair, Department of Pediatrics",
+      introduction:""
+    },
+    {
+      avatar:"/images/Gary.png",
+      organization:"Emeritus",
+      name:"Gary A. Smith, RRT(HON), FAARC",
+      address:"Olathe, KS",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/James.png",
+      organization:"Emeritus",
+      name:"James K. Stoller, MD, MS, FCCP, ATSF, FAARC",
+      address:"Cleveland, OH",
+      experience:"Chair, Education Institute Jean Wall Bennett Professor of Medicine",
+      introduction:""
+    }
+  ]
+]
 
-}
+export const ARCFExcutiveOffice =[
+  [
+    {
+      avatar:"/images/Daniel.png",
+      organization:"Executive Director",
+      name:"Daniel Garrett",
+      address:"Irving, TX",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/Laverne.png",
+      organization:"ARCF CFO",
+      name:"LaVerne Davis",
+      address:"Irving, TX",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"/images/Crystal.png",
+      organization:"ARCF Executive Assistant",
+      name:"Crystal Leighton",
+      address:"Irving, TX",
+      experience:"",
+      introduction:""
+    }
+  ]
+]
+
+export const AwardsRecipients =[
+  [
+    {
+      avatar:"",
+      organization:"Charles W. Serby COPD Research Fellowship",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Philips Respironics Fellowship in Mechanical Ventilation",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Vyaire Fellowship for Neonatal and Pediatric Therapists",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Jeri Eiserman, RRT Professional Education Research Fellowship",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+  ],
+  [
+    {
+      avatar:"",
+      organization:"Mallinckrodt Literary Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Drager-Shreyas Roy, MD Memorial Literary Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Forrest M. Bird, MD, PhD, ScD Lifetime Scientific Achievement Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Hector Leon Garza, MD International Achievement Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    }
+  ],
+  [
+    {
+      avatar:"",
+      organization:"Dr. Charles H. Hudson Award for Cardiopulmonary Public Health",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Thomas L. Petty, MD Invacare Award for Excellence in Home Respiratory Care",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Mike West, MBA, RRT Patient Education Achievement Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Mitchell A. Baran Achievement Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    }
+  ],
+  [
+    {
+      avatar:"",
+      organization:"Dr. Charles H. Hudson Award for Cardiopulmonary Public Health",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Thomas L. Petty, MD Invacare Award for Excellence in Home Respiratory Care",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"Mike West, MBA, RRT Patient Education Achievement Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"NBRC Gareth B. Gish, MS, RRT Memorial Education Recognition Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    }
+  ],
+  [
+    {
+      avatar:"",
+      organization:"1st Annual Bill Lamb Award",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+    {
+      avatar:"",
+      organization:"NBRC Gary A. Smith Educational Award for Innovation in Education Achievement",
+      name:"Firstname Lastname",
+      address:"",
+      experience:"",
+      introduction:""
+    },
+  ]
+]

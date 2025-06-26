@@ -6,7 +6,7 @@ const Financial = () => {
     return (
         <section className='bg-body p-10 md:py-15 md:px-20 xl:py-13.75 xl:px-64.5 text-white flex flex-col md:flex-row items-center justify-between text-center xl:text-left'>
             <div className='xl:w-2/3'>
-                <p className='font-ivar font-bold text-[2.875rem]'>{FinancialData.title}</p>
+                <p className='font-ivar font-bold text-4xl xl:text-[2.875rem]'>{FinancialData.title}</p>
                 <p className='text-lg'>{FinancialData.description}</p>
             </div>
             <div className='xl:w-1/3 flex justify-center xl:justify-end'>

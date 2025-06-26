@@ -2,16 +2,18 @@
 import HeroBanner from '../../../component/hero-banner'
 import {Banner} from '../../../mock-data/data'
 import Financial from '../../../component/financial'
-import Organization from '../../../component/organization-info'
-import { OrganizationData } from '../../../mock-data/data'
+import OrganizationSection from '../../../component/organization'
+import DonationSection from '../../../component/donation-section'
+import EventSection from '../../../component/event-section'
 
 export default function AboutPage() {
   return (
     <>
       <HeroBanner {...Banner.about} />
       <Financial />
-      <Organization {...OrganizationData.boardOfTrustees}/>
+      <OrganizationSection/>
+      <EventSection/>
+      <DonationSection/>
     </>
   )
 }
-
