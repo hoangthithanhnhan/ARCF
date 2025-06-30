@@ -81,6 +81,12 @@
   font-weight: 900;
   src: url('/fonts/Yellix/Yellix-BlackItalic.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Yellix';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/Yellix/Yellix-RegularItalic.woff') format('truetype');
+}
 /* Import font-family: Ellix */
 @font-face {
   font-family: 'IvarDisplay';

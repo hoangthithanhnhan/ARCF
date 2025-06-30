@@ -492,3 +492,98 @@ export const AwardsRecipients =[
     },
   ]
 ]
+
+export const Respiratory={
+  conferences:{
+    title: "Respiratory Care Journal Conferences",
+    description:[
+      [
+        'Since 1982, Respiratory Care has presented Journal Conferences with the most important, timely, and proven information affecting the practice of respiratory everywhere. The proceedings appear in special issues of the Journal both in print and online.',
+
+        'Conference attendance is limited to the faculty and staff of the Journal. Each topic is thoroughly presented by an invited expert, followed by heavy discussion among the faculty. All state-of-the-art papers and discussions are then published in the Journal.'
+      ],
+      [
+        'Journal Conference are presented under the Auspices of the ARCF. TH ARCF invites corporations to become official sponsors after the topic of the conference is known.',
+        'E-mail us for more information about becoming a sponsors.'
+      ]
+    ]
+  },
+  upcoming:{
+    label:'UPCOMING CONFERENCE',
+    title:'61st Respiratory Care Journal Conference',
+    mainTitle:'Pediatric Asthma: Management Across the Continuum of Care',
+    coChairsTitle:'CONFERENCE CO-CHAIRS',
+    coChairs:[
+      'Andrew Miller MSc RRT RRT-NPS RRT-ACCS FAARC',
+      'Denise Willis MSc RRt RRT-NPS AE-C FAARC',
+      'Ariel Berlinski MD FAARC'
+    ],
+    date:'June 19-21, 2024 | Tampa, FL'
+  }
+}
+
+export const Conference = {
+  title:"Past Conferences",
+  content: [
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Pulmonary Rehabilitation: Current Evidence and Future Directions",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "59th respiratory care Journal Conference",
+      description: "COPD: Current Evidence and Implications for Practice",
+      date: "June 21-22, 2022  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Monitoring Respiratory Function in Adult Acute Care",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Noninvasive Respiratory Support in Adults",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Respiratory Medications for COPD and Adult Asthma: Pharmacologic Actions to Clinical Applications",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Pediatric Respiratory Care",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Noninvasive Respiratory Support in Adults",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Respiratory Medications for COPD and Adult Asthma: Pharmacologic Actions to Clinical Applications",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Pediatric Respiratory Care",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Noninvasive Respiratory Support in Adults",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Respiratory Medications for COPD and Adult Asthma: Pharmacologic Actions to Clinical Applications",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+    {
+      heading: "60th respiratory care Journal Conference",
+      description: "Pediatric Respiratory Care",
+      date: "June 22-23, 2023  |  St. Petersburg, FL"
+    },
+  ]
+}

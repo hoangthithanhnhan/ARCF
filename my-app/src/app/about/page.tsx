@@ -5,6 +5,7 @@ import Financial from '../../../component/financial'
 import OrganizationSection from '../../../component/organization'
 import DonationSection from '../../../component/donation-section'
 import EventSection from '../../../component/event-section'
+import ConferenceSection from '../../../component/conference-section'
 
 export default function AboutPage() {
   return (
@@ -13,6 +14,7 @@ export default function AboutPage() {
       <Financial />
       <OrganizationSection/>
       <EventSection/>
+      <ConferenceSection/>
       <DonationSection/>
     </>
   )
