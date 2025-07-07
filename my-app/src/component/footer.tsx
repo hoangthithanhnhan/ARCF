@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {FooterData} from "../mock-data/data"
+import {FooterData} from "@/mock-data";
 
 const Footer = () => {
     return (

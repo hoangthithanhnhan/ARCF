@@ -1,31 +1,3 @@
-export const Nav = [
-  { label: "About", href: "/about" },
-  { label: "How We Give", href: "/" },
-  { label: "Donations & Support", href: "/" },
-  { label: "News", href: "/" },
-  { label: "Contact", href: "/" },
-];
-
-export const Banner = {
-  homePage:{
-    title:"Our Mission",
-    description:"ARCF is dedicated to promoting respiratory health through research, education, and patient-focused philanthropic activities.",
-    action: [
-      {
-        label:"Apply",href:"/"
-      },
-      {
-        label:"Donate",href:"/"
-      }
-    ],
-    backgroundImage:"/images/Banner.png"
-  },
-  about: {
-    title: "About",
-    description: "The American Respiratory Foundation is dedicated to promoting respiratory health throughout the support of research, education, and patient-focused philanthropic activities in respiratory care.",
-    videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-}
 
 
 export const Award= {
@@ -113,47 +85,6 @@ export const Donation = [
   }
 ]
 
-export const FooterData = [
-  {
-    address:[
-      "9425 North MacArthur Blvd,",
-      "Suite 100",
-      "Irving, TX 75063-4706"
-    ],
-    phoneNumber:"(972) 243-2272",
-    fax:"(972) 484-2720",
-  },
-  {
-    label:"About Us",
-    description:[
-      "The American Respiratory Care Foundation is a nonprofit organization formed for the purpose of supporting research, education, and charitable activities.",
-      "The ARCF seeks to educate the public about respiratory health, assist in the training and continuing education of health care providers, and improve the quality of our environment."
-    ]
-  },
-  {
-    label:"How We Give",
-    description:[
-      "Student Awards",
-      "Research Awards & Grants",
-      "Achievement Awards",
-      "Literary Awards",
-      "International Fellowship Program"
-    ]
-  },
-  {
-    label:"Donations & Support",
-    description:[
-      "Make A Donation",
-      "Endowments",
-      "Sponsors and Donors",
-      "Support for International Fellowships"
-    ]
-  },
-  {
-    copyWrite:"©2024 American Respiratory Care Foundation. All Rights Reserved.",
-    note:"The American Respiratory Care Foundation is a 501(c)(3) charitable organization."
-  }
-]
 
 export const FinancialData={
   title:"Financial Reports",
@@ -179,8 +110,18 @@ export const OrganizationData={
     ]
   },
   awardsRecipients:{
-    title:'2024 Awards Recipients',
+    title:"2024 Awards Recipients",
     description:[]
+  },
+  undergraduate:{
+    title:"Undergraduate Student Awards",
+    description:[]
+  },
+  postgraduate:{
+    title:"Postgraduate Student Awards",
+    description:[
+      "The ARCF offers the following Education Recognition Awards to respiratory therapists who are pursuing an advanced degree. All awards include a certificate of recognition, coach airfare, one night’s lodging, and registration for the AARC Congress. Applications are accepted Jan. 1–June 1."
+    ]
   }
 }
 
